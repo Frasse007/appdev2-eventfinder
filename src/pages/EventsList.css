@@ -62,3 +62,11 @@
   grid-template-columns: 1fr;
   gap: 2rem;
 }
+
+/* Media Query for Tablets*/
+@media (min-width: 768px) {
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* Decided to keep sidebar stacked vertically on tablet for better readability */
+}
