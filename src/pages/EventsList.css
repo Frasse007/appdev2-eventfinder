@@ -70,3 +70,15 @@
   }
   /* Decided to keep sidebar stacked vertically on tablet for better readability */
 }
+
+/* Media Query for Desktops*/
+@media (min-width: 1024px) {
+  .events-container {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 17.5rem;
+    max-width: 17.5rem;
+  }
+}
